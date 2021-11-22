@@ -1,6 +1,8 @@
 # Assignment 1 - Report
 Date: 20.11.2021  
-Kim Yukyeong
+Kim Yukyeong  
+You can read this report in [my github repo](https://github.com/saugkim/abo_data2021/blob/main/Assignment1_report_kim.md), in case markdown file viewer not installed in local computer.
+
 
 ## Introduction
 
