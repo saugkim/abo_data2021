@@ -16,7 +16,7 @@ My choice for second classifier is Decision Tree classifier, and there is no sci
 Define problem:
    - Classification: multiclass, single label classification problem
    - Supervised learning: predict student final grades
-   - Classifiers: ensemble, Random Forest classifier and Decision Tree classifier(my choice)        
+   - Classifiers: ensemble, Random Forest classifier and Decision Tree classifier (my choice)        
 
 
 
@@ -73,8 +73,9 @@ We do not have to collect data but we still need to clean-up and prepare data fo
     because the range of values of raw data varies, I did perform standardization transforms the feature data to have zero mean and a variance of 1. More significant number might play a more decisive role while training the model. Although decision trees and ensemble methods do not require feature scaling to be performed as they are not sensitive to the the variance in the data. (ref: https://towardsdatascience.com/do-decision-trees-need-feature-scaling-97809eaa60c6)  
     
     I would say this step is not necessary or mandatory, I have not compared both cases. My result is based on the scaled feature data (zero mean unit variance) not raw value. 
-    Figure shows data distributions before and after standardization transforms
-    ![scaled.PNG](attachment:scaled.PNG)  
+    Figure shows data distributions before and after standardization transforms  
+    
+    <img src="https://raw.githubusercontent.com/saugkim/abo_data2021/main/image/scaled.PNG" />
     
 <br>
 
@@ -118,7 +119,7 @@ In overall, I would claim that random forest is better.
 1. Tools used:  
       - scikit-learn for solving classification problem and for visualizing confusion matrix and importance features  
        
-      - classifier's setting is random_state=0(to get consistency from multiple runs) and all other parameters are default values
+      - classifier's parameter setting is random_state=0 (to get consistency from multiple runs) and all other parameters are default values
       
 <br>
        
@@ -137,12 +138,12 @@ In overall, I would claim that random forest is better.
 
     **Random forest model performance - classification report**  
     
-   <img align="center" src="report.jpg" width="800" /> 
+   <img align="center" src="https://raw.githubusercontent.com/saugkim/abo_data2021/main/image/report.jpg" width="800" /> 
     
     
     **confusion matrix of two models**  
     
-   <img src="case11.jpg" />
+   <img src="https://raw.githubusercontent.com/saugkim/abo_data2021/main/image/case11.jpg" />
 
 
 
@@ -150,17 +151,16 @@ In overall, I would claim that random forest is better.
 
     *What are the three most important features in predicting students’ final grade?*  
     
-    - importance of each feature obtained using feature_importances_ method, sorting them in descending order and displaying in bar chart      
-    - Random Forest model result: 3 mini-projects in order of Week7_MP3, Week5_MP2, Week3_MP1
-    
-    - which is correct based on the maximum points of each feature (MP3: 35, MP2: 20, MP1: 15) and all others are 5 points
+    - importance of each feature obtained using feature_importances_ method, sorting them in descending order and displaying in bar chart  
+    - Random Forest model result: 3 mini-projects are 3 important features in order of Week7_MP3, Week5_MP2, Week3_MP1
+    - which is correct based on the maximum points of each feature (MP3=35, MP2=20, MP1=15) and all others are 5 points
     
     - On the other hand tree model puts feature of Week2_Quiz1 into a third position.  
     
 
     **Importance features of both models**  
    
-   <img src="fi2.jpg"/>
+   <img src="https://raw.githubusercontent.com/saugkim/abo_data2021/main/image/fi2.jpg"/>
 
 <br>
 
