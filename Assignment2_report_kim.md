@@ -1,6 +1,7 @@
 ### Mini-project 2  REPORT
 Date: 4.12.2021  
 Kim Yukyeong
+This report is available here in [my github repo](https://github.com/saugkim/abo_data2021/edit/main/Assignment2_report_kim.md), in case markdown document viewer is not installed in local machine
 
 ## Introduction
 
@@ -129,11 +130,11 @@ In overall, I would claim that random forest is better.
 
     - forest classifier performance, the accuracy is about 0.867 (2 samples mismatching).  
     
-    - current model could not predict label 2, our dataset has only 5 sample which has label 2, already 4 samples taken to train the model. Prediction probabilities of first data(false prediction) [0.02 0.19 0.5 0.25 0.04], it has low probability for label 3(false) of 0.50 for label 2(true) is 0.19. Another false prediction (10th data) probatility distribution is [0. 0.01 0.46 0.45 0.08], proba of label 3(false) is 0.46 and the label 4(true) is 0.45, close each other. Both cases label 3 is predicted, precision score of grade 3 is very low. 
+    - current model could not predict label 2, our dataset has only 5 sample which has label 2, already 4 samples taken to train the model. Prediction probabilities of first sample data(false prediction) [0.02 0.19 0.5 0.25 0.04], it has low probability for label 3(false) of 0.50 for label 2(true) is 0.19. Another false prediction (10th sample) probatility distribution is [0. 0.01 0.46 0.45 0.08], proba of label 3(false) is 0.46 and the label 4(true) is 0.45, close each other. Both cases label 3 is predicted, precision score of grade 3 is very low. 
     
     - after injecting forum activity, the 10th data prediction probability drops for true label [0. 0. 0.51 0.42 0.07], proab difference between label 3 and 4 increased but accuracy level unchanged. 
     
-    - tree classifier performed well with 1 false prediction(at 10th sample) but after injection of forum activity, performance in accuracy level is only 0.6667 (5 false prediction). With default parameter set(max_depth=None), tree does not predict probabilities for each label(1 or 0).  
+    - tree classifier performed well with 1 false prediction(at 10th testing sample) but after injection of forum activity, performance in accuracy level is only 0.6667 (5 false prediction). With default parameter set(max_depth=None), tree does not predict probabilities for each label(1 or 0).  
 
 
     **Random forest model performance - classification report**  
@@ -176,7 +177,7 @@ I tried to split training and testing samples with different ratio and with diff
 
 *What are the interesting observations you could report?*
 
-The performance of model depending on classifier's random_state is slightly different was interesting. I would guess those two samples (first and 10th in testing samples), which both models could predict well enough, might sit on grading boundary.    
+The performance of model depending on classifier's random_state is slightly different was interesting. I would guess those two samples (first and 10th in testing samples), which both models could not predict well enough, might sit on grading boundary.    
 
 
 ##  Conclusion 
