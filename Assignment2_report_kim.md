@@ -1,7 +1,7 @@
 ### Mini-project 2  REPORT
 Date: 4.12.2021  
 Kim Yukyeong
-This report is available here in [my github repo](https://github.com/saugkim/abo_data2021/edit/main/Assignment2_report_kim.md), in case markdown document viewer is not installed in local machine
+This report is available here in [my github repo](https://github.com/saugkim/abo_data2021/blob/main/Assignment2_report_kim.md), in case markdown document viewer is not installed in local machine
 
 ## Introduction
 
