@@ -1,7 +1,7 @@
 ### Mini-project 2  REPORT
 Date: 4.12.2021  
-Kim Yukyeong
-This report is available here in [my github repo](https://github.com/saugkim/abo_data2021/blob/main/Assignment2_report_kim.md), in case markdown document viewer is not installed in local machine
+Kim Yukyeong  
+This report is available in [my github repo](https://github.com/saugkim/abo_data2021/blob/main/Assignment2_report_kim.md), in case markdown document viewer is not installed in local machine
 
 ## Introduction
 
@@ -16,9 +16,7 @@ My choice for second classifier is Decision Tree classifier, and there is no sci
 Define problem:
    - Classification: multiclass, single label classification problem
    - Supervised learning: predict student final grades
-   - Classifiers 
-         mandatory: ensemble, Random Forest classifier
-         my choice: Decision Tree classifier        
+   - Classifiers: ensemble, Random Forest classifier and Decision Tree classifier(my choice)        
 
 
 
