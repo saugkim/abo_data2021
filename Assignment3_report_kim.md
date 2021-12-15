@@ -1,6 +1,5 @@
 ## Mini-project 3 REPORT part
-
-Kim Yukyeong    
+ 
 16.12.2021  
 You can open project report using jupyter notebook or open in [my github repo](https://github.com/saugkim/abo_data2021/blob/main/Assignment3_report_kim.md)
 
