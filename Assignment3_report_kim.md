@@ -56,7 +56,7 @@ normalization of features
    - features are scaled to have zero mean and unit variance for each feature.
    
 | |mean|	std|
-|-- | --| --|
+|-- | --:| --:|
 |LSTAT|	12.653063|	7.141062|
 |INDUS|	11.136779|	6.860353|
 |RM|	6.284634|	0.702617|
