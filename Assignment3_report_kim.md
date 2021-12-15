@@ -40,7 +40,7 @@ feature selection by correlation matrix
    - features selected: INDUS, NOX, RM, TAX, PTRATIO, LSTAT
    - target: MEDV
 
-    <img src="https://raw.githubusercontent.com/saugkim/abo_data2021/main/image/correlation.PNG" width="800" />
+<img src="https://raw.githubusercontent.com/saugkim/abo_data2021/main/image/correlation.PNG" width="800" />
 
 <br>
 
