@@ -13,7 +13,7 @@ build a predictive model where the output is `MEDV - Median value of owner-occup
 Define problem:
    - Regression problem: single output
    - Supervised learning: predict continuous value of housing price
-   - Methods: deep neuron network
+   - Methods: deep neural network
 
 
 Define data:
