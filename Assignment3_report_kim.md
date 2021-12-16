@@ -100,5 +100,5 @@ the error level of 14 and based on the prediction vs true value in graph below, 
 
 scientific bottleneck was preprocessing of features, our dataset is small enough so well selected features or removing outliers could be key to have good model. I used correlation matrix to find good features to predict well target values. I have not removed any records, highly possibly few or more outliers exists, with removing them model performance could be much improved. 
 
-another bottleneck is design network architecture, there is lots of factors can be optimized or tuned for example number of hidden layers, number of neurons, non-linearity and optimizer(and its parameters), loss functions, epochs, regularization and so on. I started with model architecture with help of tensorflow keras tutorial. My goal of this project is not finding best or perfect model, so I am satisfied with every learing step. 
+another bottleneck is design network architecture, there are lots of factors can be optimized or tuned for example number of hidden layers, number of neurons, non-linearity and optimizer(and its parameters), loss functions, epochs, regularization and so on. I started with model architecture with help of tensorflow keras tutorial. My goal of this project is not finding best or perfect model, so I am satisfied with every learing step. 
 
